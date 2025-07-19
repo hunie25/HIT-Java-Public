@@ -1,5 +1,3 @@
-package Buoi_2;
-
 import java.util.Scanner;
 
 public class bai3 {
@@ -14,5 +12,11 @@ public class bai3 {
         System.out.println("tich a * b = " + (a*b));
         System.out.println("thuong a / b = " + (a/b));
         System.out.println("ket qua phep chia lay du a % b = " + (a%b));
+        if (a == b){
+            System.out.println ("a = b");
+        } else if (a > b) {
+            System.out.println ("a lớn hơn b");
+        } else
+            System.out.println ("a bé hơn b");
     }
 }
