@@ -1,25 +1,40 @@
 package Buoi_3;
 import java.util.Scanner;
 public class bai2 {
-    public static void main(String[] args) {
-        final double PI = 3.14159265;
-        Scanner sc = new Scanner (System.in);
-        System.out.print("Nhập bán kính r: ");
+    public static final double PI = 3.14159265;
+    public static double tinhC (double r){
+        return 2 * PI * r;
+    }
+    public static double tinhS (double r){
+        return r * r * PI;
+    }
+    public static double tinhMu (double r, int k){
+        return Math.pow(r,k);
+    }
+    public static double tinhCBH (double r, int k){
+        return Math.sqrt(r + k);
+    }
+    public static double tinhTTD (double r, int k){
+        return Math.abs(r - k);
+    }
+    public static void main (String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("nhap n: ");
         double r = sc.nextDouble();
-        System.out.print("Nhập số mũ k: ");
+        System.out.println("nhap k: ");
         int k = sc.nextInt();
 
-        double C = 2 * PI * r;
-        double S = PI * r * r;
-        double luyThua = Math.pow(r, k);
-        double canHai = Math.sqrt(r + k);
-        double triTuyetDoi = Math.abs(r - k);
+        double C = tinhC(r);
+        double S = tinhS(r);
+        double mu = tinhMu(r, k);
+        double CBH = tinhCBH(r, k);
+        double TTD = tinhTTD(r, k);
 
-        System.out.printf("Chu vi hình tròn: %.4f\n", C);
-        System.out.printf("Diện tích hình tròn: %.4f\n", S);
-        System.out.printf("r^k: %.4f\n", luyThua);
-        System.out.printf("Căn bậc hai của (r + k): %.4f\n", canHai);
-        System.out.printf("Giá trị tuyệt đối của (r - k): %.4f\n", triTuyetDoi);
+        System.out.println("chu vi hinh tron la: " + C);
+        System.out.println("dien tich hinh tron la: " + S);
+        System.out.println("r mu k: " + mu);
+        System.out.println("can bac hai cua (r + k): " + CBH);
+        System.out.println("tri tuyet doi cua (r - k): " + TTD);
 
         sc.close();
     }
