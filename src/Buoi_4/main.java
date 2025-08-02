@@ -7,7 +7,7 @@ public static void main(String[] args) {
     student.sayHello();
     */
 
-    /* bai 2
+    /*bai 2
     Student student = new Student(20, "Huyen");
     student.setName("Lan");
     student.setAge(19);

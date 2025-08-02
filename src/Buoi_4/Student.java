@@ -25,7 +25,7 @@ public class Student {
         return this.age;
     }
     public void setAge (int age){
-        this.age = age;
+        this.age =age;
     }
 
     public void sayHello (){

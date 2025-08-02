@@ -33,7 +33,7 @@ public class Car {
     public static final int MaxSpeed = 90;
     public void run (){
 
-        System.out.println("Xe " + brand + " dang chay voi toc do toi da " + maxSpeed + " km/h");
+        System.out.println("Xe " +brand + " dang chay voi toc do toi da " + maxSpeed + " km/h");
         if (this.maxSpeed > MaxSpeed){
             System.out.println("xe chay qua toc do cho phep");
         }

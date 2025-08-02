@@ -11,7 +11,7 @@ public class Main {
         students[4] = new Student("Ngoc", 2004, "Hai Phong", 5.5, 8, 9, 0);
 
         System.out.printf("%-10s%-8s%-15s%-12s%-12s%-14s%-10s%-12s%n",
-                "Tên", "Tuổi", "Địa chỉ", "TX1", "TX2", "KTHP", "GPA", "Nghỉ");
+                "Tên", "Tuổi","Địa chỉ", "TX1", "TX2", "KTHP", "GPA", "Nghỉ");
 
         for (Student s : students) {
             System.out.printf("%-10s%-8d%-15s%-12.1f%-12.1f%-14.1f%-10.2f%-12d%n",
