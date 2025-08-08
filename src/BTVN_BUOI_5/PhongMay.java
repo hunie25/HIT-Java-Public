@@ -14,7 +14,7 @@ public class PhongMay {
 
 
     public PhongMay(String maPhong, String tenPhong, double dienTich, QuanLy x, May[] y, Integer n) {
-        this.maPhong = maPhong;
+        this.maPhong =maPhong;
         this.tenPhong = tenPhong;
         this.dienTich = dienTich;
         this.x = x;

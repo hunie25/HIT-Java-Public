@@ -10,7 +10,7 @@ public class Faculty {
 
 
     public Faculty(String name, String date, School school) {
-        this.name = name;
+        this.name =name;
         this.date = date;
         this.x = x;
     }

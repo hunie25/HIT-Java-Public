@@ -7,7 +7,7 @@ public class Main {
         Pet pet = new Pet("dogA", 15, "Dog");
         pet.printInFo();
 
-        Cage a = new Cage();
+        Cage a =new Cage();
         Cage b = new Cage();
 
        Pet dogA = new Pet("ABC1", 20, "dog");

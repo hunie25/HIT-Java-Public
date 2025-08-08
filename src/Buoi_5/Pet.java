@@ -3,7 +3,7 @@ package Buoi_5;
 public class Pet {
 
 
-    private final double overWeight = 10;
+    private final double overWeight =10;
     private String name;
     private double weight;
     private String species;

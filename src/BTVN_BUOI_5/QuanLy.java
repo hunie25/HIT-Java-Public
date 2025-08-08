@@ -12,7 +12,7 @@ public class QuanLy {
 
     public QuanLy(String maQL, String hoTen) {
         this.maQL = maQL;
-        this.hoTen = hoTen;
+        this.hoTen =hoTen;
     }
 
     public QuanLy(){

@@ -12,7 +12,7 @@ public class Student {
         this.name = name;
         this.lop = lop;
         this.score = score;
-        this.y = y;
+        this.y =y;
     }
 
     public Student() {

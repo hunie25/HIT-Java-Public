@@ -8,7 +8,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 /* Bai 1
-        System.out.println("So hoc sinh: ");
+        System.out.println("So hoc sinh:");
         int n = sc.nextInt();
         Student[] students = new Student[n];
         for (int i = 0; i < n; i++){

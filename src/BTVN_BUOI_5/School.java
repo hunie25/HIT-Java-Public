@@ -10,7 +10,7 @@ public class School {
 
     public School(String name, String date) {
         this.name = name;
-        this.date = date;
+        this.date =date;
     }
 
     public School (){

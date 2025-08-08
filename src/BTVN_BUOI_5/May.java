@@ -12,7 +12,7 @@ public class May {
 
 
     public May(String maMay, String tenMay, String tinhTrang) {
-        this.maMay = maMay;
+        this.maMay =maMay;
         this.tenMay = tenMay;
         this.tinhTrang = tinhTrang;
     }

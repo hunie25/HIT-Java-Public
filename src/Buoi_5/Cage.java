@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Cage {
 
-    private final int MAX_CAPACITY = 3;
+    private final int MAX_CAPACITY =3;
     private String cageCode;
     private ArrayList<Pet> pets = new ArrayList<>();
     private int currentPetCount = 0;
